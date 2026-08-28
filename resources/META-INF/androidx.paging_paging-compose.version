@@ -1,0 +1,1 @@
+task ':paging:paging-compose:writeVersionFile' property 'version'

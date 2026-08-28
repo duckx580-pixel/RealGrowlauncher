@@ -1,0 +1,54 @@
+package androidx.compose.material.icons.filled;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.a;
+import k0.b;
+import k0.d;
+import k1.e;
+import k1.f;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class ExitToAppKt {
+    private static f _exitToApp;
+
+    public static final f getExitToApp(a aVar) {
+        l.f("<this>", aVar);
+        f fVar = _exitToApp;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Filled.ExitToApp", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        m0 m0Var = new m0(t.f6905b);
+        n nVarC = k0.a.c(10.09f, 15.59f, 11.5f, 17.0f);
+        nVarC.m(5.0f, -5.0f);
+        nVarC.m(-5.0f, -5.0f);
+        nVarC.m(-1.41f, 1.41f);
+        gb.e.w(nVarC, 12.67f, 11.0f, 3.0f, 2.0f);
+        d.x(nVarC, 9.67f, -2.58f, 2.59f);
+        nVarC.n(19.0f, 3.0f);
+        nVarC.j(5.0f);
+        nVarC.i(-1.11f, 0.0f, -2.0f, 0.9f, -2.0f, 2.0f);
+        b.m(nVarC, 4.0f, 2.0f, 5.0f, 14.0f);
+        nVarC.t(14.0f);
+        nVarC.j(5.0f);
+        nVarC.t(-4.0f);
+        nVarC.j(3.0f);
+        nVarC.t(4.0f);
+        nVarC.i(0.0f, 1.1f, 0.89f, 2.0f, 2.0f, 2.0f);
+        nVarC.k(14.0f);
+        nVarC.i(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        nVarC.s(5.0f);
+        nVarC.i(0.0f, -1.1f, -0.9f, -2.0f, -2.0f, -2.0f);
+        nVarC.g();
+        e.a(eVar, nVarC.f3166a, 0, m0Var);
+        f fVarB = eVar.b();
+        _exitToApp = fVarB;
+        return fVarB;
+    }
+}

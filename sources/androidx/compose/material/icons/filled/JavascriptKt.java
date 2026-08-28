@@ -1,0 +1,56 @@
+package androidx.compose.material.icons.filled;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.a;
+import k0.b;
+import k0.c;
+import k1.e;
+import k1.f;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class JavascriptKt {
+    private static f _javascript;
+
+    public static final f getJavascript(a aVar) {
+        l.f("<this>", aVar);
+        f fVar = _javascript;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Filled.Javascript", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        m0 m0Var = new m0(t.f6905b);
+        n nVarF = b.f(12.0f, 14.0f, -1.0f, 1.5f, 0.5f);
+        c.r(nVarF, 2.0f, -1.0f, 13.0f);
+        nVarF.i(-0.55f, 0.0f, -1.0f, -0.45f, -1.0f, -1.0f);
+        nVarF.s(10.0f);
+        nVarF.i(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        nVarF.k(3.0f);
+        nVarF.i(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        k0.a.A(nVarF, 1.0f, -1.5f, -0.5f, -2.0f);
+        nVarF.t(1.0f);
+        nVarF.j(16.0f);
+        nVarF.i(0.55f, 0.0f, 1.0f, 0.45f, 1.0f, 1.0f);
+        nVarF.s(14.0f);
+        nVarF.i(0.0f, 0.55f, -0.45f, 1.0f, -1.0f, 1.0f);
+        nVarF.k(-3.0f);
+        nVarF.h(12.45f, 15.0f, 12.0f, 14.55f, 12.0f, 14.0f);
+        b.k(nVarF, 9.0f, 9.0f, 4.5f, 7.5f);
+        k0.f.c(nVarF, -1.0f, 6.0f, 1.0f);
+        nVarF.h(6.0f, 14.33f, 6.67f, 15.0f, 7.5f, 15.0f);
+        nVarF.j(9.0f);
+        nVarF.i(0.83f, 0.0f, 1.5f, -0.67f, 1.5f, -1.5f);
+        nVarF.s(9.0f);
+        nVarF.h(10.5f, 9.0f, 9.83f, 9.0f, 9.0f, 9.0f);
+        nVarF.g();
+        e.a(eVar, nVarF.f3166a, 0, m0Var);
+        f fVarB = eVar.b();
+        _javascript = fVarB;
+        return fVarB;
+    }
+}

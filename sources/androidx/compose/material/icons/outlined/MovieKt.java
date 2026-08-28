@@ -1,0 +1,50 @@
+package androidx.compose.material.icons.outlined;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.b;
+import k0.d;
+import k0.g;
+import k1.e;
+import k1.f;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class MovieKt {
+    private static f _movie;
+
+    public static final f getMovie(b bVar) {
+        l.f("<this>", bVar);
+        f fVar = _movie;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Outlined.Movie", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        m0 m0Var = new m0(t.f6905b);
+        n nVarS = d.s(4.0f, 6.47f, 5.76f, 10.0f, 20.0f);
+        g.v(nVarS, 8.0f, 4.0f, 6.47f);
+        nVarS.n(22.0f, 4.0f);
+        d.n(nVarS, -4.0f, 2.0f, 4.0f, -3.0f);
+        nVarS.m(-2.0f, -4.0f);
+        d.n(nVarS, -2.0f, 2.0f, 4.0f, -3.0f);
+        nVarS.m(-2.0f, -4.0f);
+        k0.e.i(nVarS, 8.0f, 2.0f, 4.0f, 7.0f);
+        nVarS.l(5.0f, 4.0f);
+        nVarS.j(4.0f);
+        nVarS.i(-1.1f, 0.0f, -1.99f, 0.9f, -1.99f, 2.0f);
+        nVarS.l(2.0f, 18.0f);
+        nVarS.i(0.0f, 1.1f, 0.9f, 2.0f, 2.0f, 2.0f);
+        nVarS.k(16.0f);
+        nVarS.i(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        nVarS.s(4.0f);
+        nVarS.g();
+        e.a(eVar, nVarS.f3166a, 0, m0Var);
+        f fVarB = eVar.b();
+        _movie = fVarB;
+        return fVarB;
+    }
+}

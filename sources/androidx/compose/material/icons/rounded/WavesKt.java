@@ -1,0 +1,128 @@
+package androidx.compose.material.icons.rounded;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.c;
+import k0.a;
+import k1.e;
+import k1.f;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class WavesKt {
+    private static f _waves;
+
+    public static final f getWaves(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _waves;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.Waves", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        m0 m0Var = new m0(t.f6905b);
+        n nVarA = a.a(17.0f, 16.99f);
+        nVarA.i(-1.35f, 0.0f, -2.2f, 0.42f, -2.95f, 0.8f);
+        nVarA.i(-0.65f, 0.33f, -1.18f, 0.6f, -2.05f, 0.6f);
+        nVarA.i(-0.9f, 0.0f, -1.4f, -0.25f, -2.05f, -0.6f);
+        nVarA.i(-0.75f, -0.38f, -1.57f, -0.8f, -2.95f, -0.8f);
+        nVarA.q(-2.2f, 0.42f, -2.95f, 0.8f);
+        nVarA.i(-0.43f, 0.22f, -0.81f, 0.41f, -1.27f, 0.52f);
+        nVarA.i(-0.45f, 0.1f, -0.78f, 0.46f, -0.78f, 0.91f);
+        nVarA.t(0.1f);
+        nVarA.i(0.0f, 0.6f, 0.56f, 1.03f, 1.14f, 0.91f);
+        nVarA.i(0.74f, -0.15f, 1.3f, -0.43f, 1.81f, -0.69f);
+        nVarA.i(0.65f, -0.33f, 1.17f, -0.6f, 2.05f, -0.6f);
+        nVarA.q(1.4f, 0.25f, 2.05f, 0.6f);
+        nVarA.i(0.75f, 0.38f, 1.57f, 0.8f, 2.95f, 0.8f);
+        nVarA.q(2.2f, -0.42f, 2.95f, -0.8f);
+        nVarA.i(0.65f, -0.33f, 1.18f, -0.6f, 2.05f, -0.6f);
+        nVarA.i(0.9f, 0.0f, 1.4f, 0.25f, 2.05f, 0.6f);
+        nVarA.i(0.52f, 0.26f, 1.08f, 0.55f, 1.83f, 0.7f);
+        nVarA.i(0.58f, 0.11f, 1.12f, -0.33f, 1.12f, -0.91f);
+        nVarA.t(-0.09f);
+        nVarA.i(0.0f, -0.46f, -0.34f, -0.82f, -0.79f, -0.92f);
+        nVarA.i(-0.46f, -0.1f, -0.83f, -0.29f, -1.26f, -0.52f);
+        nVarA.i(-0.75f, -0.39f, -1.6f, -0.81f, -2.95f, -0.81f);
+        nVarA.g();
+        nVarA.n(17.0f, 12.54f);
+        nVarA.i(-1.35f, 0.0f, -2.2f, 0.43f, -2.95f, 0.8f);
+        nVarA.i(-0.65f, 0.32f, -1.18f, 0.6f, -2.05f, 0.6f);
+        nVarA.i(-0.9f, 0.0f, -1.4f, -0.25f, -2.05f, -0.6f);
+        nVarA.i(-0.75f, -0.38f, -1.57f, -0.8f, -2.95f, -0.8f);
+        nVarA.q(-2.2f, 0.43f, -2.95f, 0.8f);
+        nVarA.i(-0.43f, 0.21f, -0.81f, 0.41f, -1.28f, 0.52f);
+        nVarA.i(-0.44f, 0.1f, -0.77f, 0.46f, -0.77f, 0.91f);
+        nVarA.t(0.1f);
+        nVarA.i(0.0f, 0.59f, 0.54f, 1.03f, 1.12f, 0.91f);
+        nVarA.i(0.75f, -0.15f, 1.31f, -0.44f, 1.83f, -0.69f);
+        nVarA.i(0.65f, -0.35f, 1.15f, -0.6f, 2.05f, -0.6f);
+        nVarA.q(1.4f, 0.25f, 2.05f, 0.6f);
+        nVarA.i(0.75f, 0.38f, 1.57f, 0.8f, 2.95f, 0.8f);
+        nVarA.q(2.2f, -0.43f, 2.95f, -0.8f);
+        nVarA.i(0.65f, -0.35f, 1.15f, -0.6f, 2.05f, -0.6f);
+        nVarA.q(1.4f, 0.25f, 2.05f, 0.6f);
+        nVarA.i(0.52f, 0.26f, 1.08f, 0.55f, 1.83f, 0.7f);
+        nVarA.i(0.58f, 0.11f, 1.12f, -0.33f, 1.12f, -0.92f);
+        nVarA.t(-0.09f);
+        nVarA.i(0.0f, -0.46f, -0.34f, -0.82f, -0.79f, -0.92f);
+        nVarA.i(-0.46f, -0.1f, -0.83f, -0.29f, -1.26f, -0.52f);
+        nVarA.i(-0.75f, -0.38f, -1.6f, -0.8f, -2.95f, -0.8f);
+        nVarA.g();
+        nVarA.n(19.95f, 4.46f);
+        nVarA.i(-0.75f, -0.38f, -1.58f, -0.8f, -2.95f, -0.8f);
+        nVarA.q(-2.2f, 0.42f, -2.95f, 0.8f);
+        nVarA.i(-0.65f, 0.32f, -1.18f, 0.6f, -2.05f, 0.6f);
+        nVarA.i(-0.9f, 0.0f, -1.4f, -0.25f, -2.05f, -0.6f);
+        nVarA.i(-0.75f, -0.37f, -1.57f, -0.8f, -2.95f, -0.8f);
+        nVarA.q(-2.2f, 0.42f, -2.95f, 0.8f);
+        nVarA.i(-0.43f, 0.22f, -0.81f, 0.41f, -1.27f, 0.52f);
+        nVarA.i(-0.45f, 0.1f, -0.78f, 0.46f, -0.78f, 0.91f);
+        nVarA.t(0.07f);
+        nVarA.i(0.0f, 0.6f, 0.54f, 1.04f, 1.12f, 0.92f);
+        nVarA.i(0.75f, -0.15f, 1.31f, -0.44f, 1.83f, -0.69f);
+        nVarA.i(0.65f, -0.33f, 1.17f, -0.6f, 2.05f, -0.6f);
+        nVarA.q(1.4f, 0.25f, 2.05f, 0.6f);
+        nVarA.i(0.75f, 0.38f, 1.57f, 0.8f, 2.95f, 0.8f);
+        nVarA.q(2.2f, -0.43f, 2.95f, -0.8f);
+        nVarA.i(0.65f, -0.32f, 1.18f, -0.6f, 2.05f, -0.6f);
+        nVarA.i(0.9f, 0.0f, 1.4f, 0.25f, 2.05f, 0.6f);
+        nVarA.i(0.52f, 0.26f, 1.08f, 0.55f, 1.83f, 0.7f);
+        nVarA.i(0.58f, 0.11f, 1.12f, -0.33f, 1.12f, -0.92f);
+        nVarA.t(-0.09f);
+        nVarA.i(0.0f, -0.46f, -0.34f, -0.82f, -0.79f, -0.92f);
+        nVarA.i(-0.46f, -0.1f, -0.83f, -0.28f, -1.26f, -0.5f);
+        nVarA.g();
+        nVarA.n(17.0f, 8.09f);
+        nVarA.i(-1.35f, 0.0f, -2.2f, 0.43f, -2.95f, 0.8f);
+        nVarA.i(-0.65f, 0.35f, -1.15f, 0.6f, -2.05f, 0.6f);
+        nVarA.q(-1.4f, -0.25f, -2.05f, -0.6f);
+        nVarA.i(-0.75f, -0.38f, -1.57f, -0.8f, -2.95f, -0.8f);
+        nVarA.q(-2.2f, 0.43f, -2.95f, 0.8f);
+        nVarA.i(-0.43f, 0.23f, -0.8f, 0.42f, -1.26f, 0.52f);
+        nVarA.i(-0.45f, 0.1f, -0.79f, 0.46f, -0.79f, 0.92f);
+        nVarA.t(0.09f);
+        nVarA.i(0.0f, 0.59f, 0.54f, 1.03f, 1.12f, 0.91f);
+        nVarA.i(0.75f, -0.15f, 1.31f, -0.44f, 1.83f, -0.69f);
+        nVarA.i(0.65f, -0.32f, 1.18f, -0.6f, 2.05f, -0.6f);
+        nVarA.q(1.4f, 0.25f, 2.05f, 0.6f);
+        nVarA.i(0.75f, 0.38f, 1.57f, 0.8f, 2.95f, 0.8f);
+        nVarA.q(2.2f, -0.43f, 2.95f, -0.8f);
+        nVarA.i(0.65f, -0.32f, 1.18f, -0.6f, 2.05f, -0.6f);
+        nVarA.i(0.9f, 0.0f, 1.4f, 0.25f, 2.05f, 0.6f);
+        nVarA.i(0.52f, 0.26f, 1.08f, 0.55f, 1.83f, 0.7f);
+        nVarA.i(0.58f, 0.11f, 1.12f, -0.33f, 1.12f, -0.91f);
+        nVarA.t(-0.09f);
+        nVarA.i(0.0f, -0.46f, -0.34f, -0.82f, -0.79f, -0.92f);
+        nVarA.i(-0.46f, -0.1f, -0.83f, -0.29f, -1.26f, -0.52f);
+        nVarA.i(-0.75f, -0.39f, -1.6f, -0.81f, -2.95f, -0.81f);
+        nVarA.g();
+        e.a(eVar, nVarA.f3166a, 0, m0Var);
+        f fVarB = eVar.b();
+        _waves = fVarB;
+        return fVarB;
+    }
+}

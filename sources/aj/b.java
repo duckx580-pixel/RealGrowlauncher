@@ -1,0 +1,10 @@
+package aj;
+
+import android.R;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class b {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final int[] f620a = {R.attr.enabled, R.attr.textSize, R.attr.textStyle, R.attr.text, R.attr.textAllCaps, R.attr.fontFamily, launcher.powerkuy.growlauncher.R.attr.fb_borderColor, launcher.powerkuy.growlauncher.R.attr.fb_borderWidth, launcher.powerkuy.growlauncher.R.attr.fb_defaultColor, launcher.powerkuy.growlauncher.R.attr.fb_disabledBorderColor, launcher.powerkuy.growlauncher.R.attr.fb_disabledColor, launcher.powerkuy.growlauncher.R.attr.fb_disabledTextColor, launcher.powerkuy.growlauncher.R.attr.fb_focusColor, launcher.powerkuy.growlauncher.R.attr.fb_fontIconResource, launcher.powerkuy.growlauncher.R.attr.fb_fontIconSize, launcher.powerkuy.growlauncher.R.attr.fb_ghost, launcher.powerkuy.growlauncher.R.attr.fb_iconColor, launcher.powerkuy.growlauncher.R.attr.fb_iconFont, launcher.powerkuy.growlauncher.R.attr.fb_iconPaddingBottom, launcher.powerkuy.growlauncher.R.attr.fb_iconPaddingLeft, launcher.powerkuy.growlauncher.R.attr.fb_iconPaddingRight, launcher.powerkuy.growlauncher.R.attr.fb_iconPaddingTop, launcher.powerkuy.growlauncher.R.attr.fb_iconPosition, launcher.powerkuy.growlauncher.R.attr.fb_iconResource, launcher.powerkuy.growlauncher.R.attr.fb_radius, launcher.powerkuy.growlauncher.R.attr.fb_radiusBottomLeft, launcher.powerkuy.growlauncher.R.attr.fb_radiusBottomRight, launcher.powerkuy.growlauncher.R.attr.fb_radiusTopLeft, launcher.powerkuy.growlauncher.R.attr.fb_radiusTopRight, launcher.powerkuy.growlauncher.R.attr.fb_text, launcher.powerkuy.growlauncher.R.attr.fb_textAllCaps, launcher.powerkuy.growlauncher.R.attr.fb_textColor, launcher.powerkuy.growlauncher.R.attr.fb_textFont, launcher.powerkuy.growlauncher.R.attr.fb_textFontRes, launcher.powerkuy.growlauncher.R.attr.fb_textGravity, launcher.powerkuy.growlauncher.R.attr.fb_textPosition, launcher.powerkuy.growlauncher.R.attr.fb_textSize, launcher.powerkuy.growlauncher.R.attr.fb_useSystemFont};
+}

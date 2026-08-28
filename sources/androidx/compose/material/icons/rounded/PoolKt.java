@@ -1,0 +1,125 @@
+package androidx.compose.material.icons.rounded;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.c;
+import java.util.ArrayList;
+import k0.a;
+import k1.e;
+import k1.f;
+import k1.h0;
+import k1.r;
+import k1.v;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class PoolKt {
+    private static f _pool;
+
+    public static final f getPool(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _pool;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.Pool", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        long j = t.f6905b;
+        m0 m0Var = new m0(j);
+        n nVarA = a.a(6.11f, 5.56f);
+        nVarA.h(7.3f, 5.7f, 8.14f, 6.14f, 9.0f, 7.0f);
+        nVarA.m(1.0f, 1.0f);
+        nVarA.m(-3.25f, 3.25f);
+        nVarA.i(0.31f, 0.12f, 0.56f, 0.27f, 0.77f, 0.39f);
+        nVarA.i(0.37f, 0.23f, 0.59f, 0.36f, 1.15f, 0.36f);
+        nVarA.q(0.78f, -0.13f, 1.15f, -0.36f);
+        nVarA.i(0.46f, -0.27f, 1.08f, -0.64f, 2.19f, -0.64f);
+        nVarA.q(1.73f, 0.37f, 2.18f, 0.64f);
+        nVarA.i(0.37f, 0.22f, 0.6f, 0.36f, 1.15f, 0.36f);
+        nVarA.i(0.55f, 0.0f, 0.78f, -0.13f, 1.15f, -0.36f);
+        nVarA.i(0.12f, -0.07f, 0.26f, -0.15f, 0.41f, -0.23f);
+        nVarA.l(10.48f, 5.0f);
+        nVarA.h(9.22f, 3.74f, 8.04f, 3.2f, 6.3f, 3.05f);
+        nVarA.h(5.6f, 2.99f, 5.0f, 3.56f, 5.0f, 4.26f);
+        nVarA.t(0.09f);
+        nVarA.i(0.0f, 0.63f, 0.49f, 1.13f, 1.11f, 1.21f);
+        nVarA.g();
+        nVarA.n(21.35f, 18.91f);
+        nVarA.i(-0.17f, -0.06f, -0.32f, -0.15f, -0.5f, -0.27f);
+        nVarA.i(-0.45f, -0.27f, -1.07f, -0.64f, -2.18f, -0.64f);
+        nVarA.q(-1.73f, 0.37f, -2.18f, 0.64f);
+        nVarA.i(-0.37f, 0.23f, -0.6f, 0.36f, -1.15f, 0.36f);
+        nVarA.i(-0.55f, 0.0f, -0.78f, -0.14f, -1.15f, -0.36f);
+        nVarA.i(-0.45f, -0.27f, -1.07f, -0.64f, -2.18f, -0.64f);
+        nVarA.q(-1.73f, 0.37f, -2.19f, 0.64f);
+        nVarA.i(-0.37f, 0.23f, -0.59f, 0.36f, -1.15f, 0.36f);
+        nVarA.q(-0.78f, -0.13f, -1.15f, -0.36f);
+        nVarA.i(-0.45f, -0.27f, -1.07f, -0.64f, -2.18f, -0.64f);
+        nVarA.q(-1.73f, 0.37f, -2.19f, 0.64f);
+        nVarA.i(-0.18f, 0.11f, -0.33f, 0.2f, -0.5f, 0.27f);
+        nVarA.i(-0.38f, 0.13f, -0.65f, 0.45f, -0.65f, 0.85f);
+        nVarA.t(0.12f);
+        nVarA.i(0.0f, 0.67f, 0.66f, 1.13f, 1.3f, 0.91f);
+        nVarA.i(0.37f, -0.13f, 0.65f, -0.3f, 0.89f, -0.44f);
+        nVarA.i(0.37f, -0.22f, 0.6f, -0.35f, 1.15f, -0.35f);
+        nVarA.i(0.55f, 0.0f, 0.78f, 0.13f, 1.15f, 0.36f);
+        nVarA.i(0.45f, 0.27f, 1.07f, 0.64f, 2.18f, 0.64f);
+        nVarA.q(1.73f, -0.37f, 2.19f, -0.64f);
+        nVarA.i(0.37f, -0.23f, 0.59f, -0.36f, 1.15f, -0.36f);
+        nVarA.i(0.55f, 0.0f, 0.78f, 0.14f, 1.15f, 0.36f);
+        nVarA.i(0.45f, 0.27f, 1.07f, 0.64f, 2.18f, 0.64f);
+        nVarA.q(1.72f, -0.37f, 2.18f, -0.64f);
+        nVarA.i(0.37f, -0.23f, 0.59f, -0.36f, 1.15f, -0.36f);
+        nVarA.i(0.55f, 0.0f, 0.78f, 0.14f, 1.15f, 0.36f);
+        nVarA.i(0.23f, 0.14f, 0.51f, 0.31f, 0.88f, 0.44f);
+        nVarA.i(0.63f, 0.22f, 1.3f, -0.24f, 1.3f, -0.91f);
+        nVarA.t(-0.12f);
+        nVarA.i(0.0f, -0.41f, -0.27f, -0.73f, -0.65f, -0.86f);
+        nVarA.g();
+        nVarA.n(3.11f, 16.35f);
+        nVarA.i(0.47f, -0.13f, 0.81f, -0.33f, 1.09f, -0.49f);
+        nVarA.i(0.37f, -0.23f, 0.6f, -0.36f, 1.15f, -0.36f);
+        nVarA.i(0.55f, 0.0f, 0.78f, 0.14f, 1.15f, 0.36f);
+        nVarA.i(0.45f, 0.27f, 1.07f, 0.64f, 2.18f, 0.64f);
+        nVarA.q(1.73f, -0.37f, 2.18f, -0.64f);
+        nVarA.i(0.37f, -0.23f, 0.59f, -0.36f, 1.15f, -0.36f);
+        nVarA.i(0.55f, 0.0f, 0.78f, 0.14f, 1.15f, 0.36f);
+        nVarA.i(0.45f, 0.27f, 1.07f, 0.64f, 2.18f, 0.64f);
+        nVarA.q(1.73f, -0.37f, 2.18f, -0.64f);
+        nVarA.i(0.37f, -0.23f, 0.59f, -0.36f, 1.15f, -0.36f);
+        nVarA.i(0.55f, 0.0f, 0.78f, 0.14f, 1.15f, 0.36f);
+        nVarA.i(0.23f, 0.14f, 0.5f, 0.3f, 0.85f, 0.43f);
+        nVarA.i(0.63f, 0.23f, 1.31f, -0.24f, 1.31f, -0.91f);
+        nVarA.t(-0.12f);
+        nVarA.i(0.0f, -0.4f, -0.27f, -0.72f, -0.64f, -0.86f);
+        nVarA.i(-0.17f, -0.06f, -0.32f, -0.15f, -0.51f, -0.26f);
+        nVarA.i(-0.45f, -0.27f, -1.07f, -0.64f, -2.18f, -0.64f);
+        nVarA.q(-1.73f, 0.37f, -2.18f, 0.64f);
+        nVarA.i(-0.37f, 0.23f, -0.6f, 0.36f, -1.15f, 0.36f);
+        nVarA.q(-0.78f, -0.14f, -1.15f, -0.36f);
+        nVarA.i(-0.45f, -0.27f, -1.07f, -0.64f, -2.18f, -0.64f);
+        nVarA.q(-1.73f, 0.37f, -2.18f, 0.64f);
+        nVarA.i(-0.37f, 0.23f, -0.59f, 0.36f, -1.15f, 0.36f);
+        nVarA.i(-0.55f, 0.0f, -0.78f, -0.14f, -1.15f, -0.36f);
+        nVarA.i(-0.45f, -0.27f, -1.07f, -0.64f, -2.18f, -0.64f);
+        nVarA.q(-1.73f, 0.37f, -2.18f, 0.64f);
+        nVarA.i(-0.18f, 0.11f, -0.33f, 0.2f, -0.5f, 0.27f);
+        nVarA.i(-0.38f, 0.13f, -0.65f, 0.45f, -0.65f, 0.85f);
+        nVarA.t(0.23f);
+        nVarA.i(0.0f, 0.58f, 0.55f, 1.02f, 1.11f, 0.86f);
+        nVarA.g();
+        e.a(eVar, nVarA.f3166a, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new k1.n(16.5f, 5.5f));
+        arrayList.add(new v(-2.5f, 0.0f));
+        arrayList.add(new r(2.5f, 2.5f, 0.0f, true, true, 5.0f, 0.0f));
+        arrayList.add(new r(2.5f, 2.5f, 0.0f, true, true, -5.0f, 0.0f));
+        e.a(eVar, arrayList, 0, m0Var2);
+        f fVarB = eVar.b();
+        _pool = fVarB;
+        return fVarB;
+    }
+}

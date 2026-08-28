@@ -1,0 +1,65 @@
+package ue;
+
+import com.usercentrics.sdk.models.settings.PredefinedUICustomizationFont;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class e2 extends com.google.protobuf.z {
+    public static final int BUILT_SDK_VERSION_FIELD_NUMBER = 3;
+    private static final e2 DEFAULT_INSTANCE;
+    private static volatile com.google.protobuf.c1 PARSER = null;
+    public static final int SCREEN_SCALE_FIELD_NUMBER = 5;
+    public static final int SIMULATOR_FIELD_NUMBER = 2;
+    public static final int SKADNETWORK_ID_FIELD_NUMBER = 4;
+    public static final int SYSTEM_BOOT_TIME_FIELD_NUMBER = 1;
+    private int bitField0_;
+    private int screenScale_;
+    private boolean simulator_;
+    private long systemBootTime_;
+    private String builtSdkVersion_ = PredefinedUICustomizationFont.defaultFamily;
+    private com.google.protobuf.e0 skadnetworkId_ = com.google.protobuf.f1.f4559t;
+
+    static {
+        e2 e2Var = new e2();
+        DEFAULT_INSTANCE = e2Var;
+        com.google.protobuf.z.m(e2.class, e2Var);
+    }
+
+    @Override // com.google.protobuf.z
+    public final Object f(int i10) {
+        com.google.protobuf.c1 yVar;
+        switch (c2.f17732a[t.g.c(i10)]) {
+            case 1:
+                return new e2();
+            case 2:
+                return new b(DEFAULT_INSTANCE);
+            case 3:
+                return new com.google.protobuf.g1(DEFAULT_INSTANCE, "\u0000\u0005\u0000\u0001\u0001\u0005\u0005\u0000\u0001\u0000\u0001ဂ\u0000\u0002ဇ\u0001\u0003ለ\u0002\u0004Ț\u0005ဋ\u0003", new Object[]{"bitField0_", "systemBootTime_", "simulator_", "builtSdkVersion_", "skadnetworkId_", "screenScale_"});
+            case 4:
+                return DEFAULT_INSTANCE;
+            case 5:
+                com.google.protobuf.c1 c1Var = PARSER;
+                if (c1Var != null) {
+                    return c1Var;
+                }
+                synchronized (e2.class) {
+                    try {
+                        yVar = PARSER;
+                        if (yVar == null) {
+                            yVar = new com.google.protobuf.y();
+                            PARSER = yVar;
+                        }
+                    } catch (Throwable th2) {
+                        throw th2;
+                    }
+                    break;
+                }
+                return yVar;
+            case 6:
+                return (byte) 1;
+            case 7:
+                return null;
+            default:
+                throw new UnsupportedOperationException();
+        }
+    }
+}

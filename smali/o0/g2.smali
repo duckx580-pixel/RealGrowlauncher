@@ -1,0 +1,4 @@
+###### Class o0.g2 (o0.g2)
+.class public final Lo0/g2;
+.super Ljava/lang/ref/WeakReference;
+.source "r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb"

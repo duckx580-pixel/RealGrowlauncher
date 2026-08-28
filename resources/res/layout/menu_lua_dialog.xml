@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/lua_dialog"
+        android:background="@drawable/lua_back_5rad"
+        android:layout_width="310dp"
+        android:layout_height="match_parent"
+        android:backgroundTint="#ff292929">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:id="@+id/menu_lua_addfile"
+            android:background="@drawable/lua_button_add"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:text="ADD"
+            android:elevation="8dp"/>
+        <ListView
+            android:id="@+id/menu_lua_listfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="0dp"/>
+    </LinearLayout>
+</LinearLayout>

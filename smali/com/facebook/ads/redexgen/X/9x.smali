@@ -1,0 +1,15 @@
+###### Class com.facebook.ads.redexgen.X.C02519x (com.facebook.ads.redexgen.X.9x)
+.class public final synthetic Lcom/facebook/ads/redexgen/X/9x;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/facebook/ads/redexgen/X/9z;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1009
+    name = null
+.end annotation

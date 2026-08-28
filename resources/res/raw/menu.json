@@ -1,0 +1,85 @@
+[
+  {
+    "category": "Player",
+    "sub_category": [
+      {
+        "sub_name": "Player Movement",
+        "menu": [
+          {
+            "text": "Antibounce",
+            "type": "toggle",
+            "default": false
+          },
+          {
+            "text": "Movement Menu",
+            "type": "toggle",
+            "expandable": true,
+            "list_child": [
+              {
+                "text": "Speed",
+                "type": "slider",
+                "min": 0,
+                "max": 100,
+                "use_dot": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sub_name": "Command",
+        "menu": [
+          {
+            "text": "Chat Spammer",
+            "type": "action",
+            "action": "spam"
+          },
+          {
+            "text": "Start",
+            "type": "toggle",
+            "id": "start_spam"
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type":"text_display_1",
+            "text":"Setting"
+          },
+          {
+            "type":"text_display_2",
+            "text":"Setting"
+          },
+          {
+            "type":"tooltip",
+            "text":"Please be patient"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "World",
+    "sub_category": [
+      
+    ]
+  },
+  {
+    "category": "Visual",
+    "sub_category": [
+
+    ]
+  },
+  {
+    "category": "Module",
+    "sub_category": [
+
+    ]
+  },
+  {
+    "category": "Setting",
+    "sub_category": [
+
+    ]
+  }
+]

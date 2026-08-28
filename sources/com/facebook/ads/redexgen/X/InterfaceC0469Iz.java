@@ -1,0 +1,7 @@
+package com.facebook.ads.redexgen.X;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.Iz, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public interface InterfaceC0469Iz {
+    int A6C();
+}

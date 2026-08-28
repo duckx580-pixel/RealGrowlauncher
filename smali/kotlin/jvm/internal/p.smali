@@ -1,0 +1,112 @@
+###### Class kotlin.jvm.internal.p (kotlin.jvm.internal.p)
+.class public Lkotlin/jvm/internal/p;
+.super Lkotlin/jvm/internal/r;
+.source "r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb"
+
+# interfaces
+.implements Llh/h;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 10
+
+    .line 1
+    const/4 v5, 0x1
+
+    .line 2
+    sget-object v1, Lkotlin/jvm/internal/d;->NO_RECEIVER:Ljava/lang/Object;
+
+    .line 3
+    .line 4
+    move-object v0, p0
+
+    .line 5
+    move-object v2, p1
+
+    .line 6
+    move-object v3, p2
+
+    .line 7
+    move-object v4, p3
+
+    .line 8
+    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/r;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c()V
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/r;->a()Llh/j;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    check-cast v0, Llh/h;
+
+    .line 6
+    .line 7
+    invoke-interface {v0}, Llh/h;->c()V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method
+
+.method public final computeReflected()Llh/b;
+    .registers 2
+
+    .line 1
+    sget-object v0, Lkotlin/jvm/internal/y;->a:Lkotlin/jvm/internal/z;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 4
+    .line 5
+    .line 6
+    return-object p0
+.end method
+
+.method public get(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/jvm/internal/p;->c()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p1, 0x0
+
+    .line 5
+    throw p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .registers 2
+
+    .line 1
+    invoke-interface {p0, p1}, Llh/h;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method

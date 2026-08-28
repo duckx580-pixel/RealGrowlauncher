@@ -1,0 +1,127 @@
+package androidx.compose.material.icons.rounded;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.c;
+import java.util.ArrayList;
+import k0.a;
+import k0.b;
+import k0.d;
+import k1.e;
+import k1.f;
+import k1.h0;
+import k1.j;
+import k1.u;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class HdrAutoSelectKt {
+    private static f _hdrAutoSelect;
+
+    public static final f getHdrAutoSelect(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _hdrAutoSelect;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.HdrAutoSelect", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        long j = t.f6905b;
+        m0 m0Var = new m0(j);
+        n nVarS = a.s(10.0f, 16.0f, 7.25f);
+        nVarS.i(-0.41f, 0.0f, -0.75f, 0.34f, -0.75f, 0.75f);
+        nVarS.t(4.5f);
+        nVarS.h(6.5f, 21.66f, 6.84f, 22.0f, 7.25f, 22.0f);
+        nVarS.j(10.0f);
+        nVarS.i(0.83f, 0.0f, 1.5f, -0.67f, 1.5f, -1.5f);
+        nVarS.t(-3.0f);
+        nVarS.h(11.5f, 16.67f, 10.83f, 16.0f, 10.0f, 16.0f);
+        a.C(nVarS, 10.0f, 20.5f, 8.0f, -3.0f);
+        b.g(nVarS, 2.0f, 20.5f);
+        e.a(eVar, nVarS.f3166a, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        n nVarA = a.a(4.25f, 16.0f);
+        nVarA.i(-0.41f, 0.0f, -0.75f, 0.34f, -0.75f, 0.75f);
+        a.j(nVarA, 18.0f, -2.0f, -1.25f);
+        nVarA.h(1.5f, 16.34f, 1.16f, 16.0f, 0.75f, 16.0f);
+        nVarA.p(0.0f, 16.34f, 0.0f, 16.75f);
+        nVarA.t(4.5f);
+        nVarA.h(0.0f, 21.66f, 0.34f, 22.0f, 0.75f, 22.0f);
+        nVarA.q(0.75f, -0.34f, 0.75f, -0.75f);
+        a.j(nVarA, 19.5f, 2.0f, 1.75f);
+        nVarA.h(3.5f, 21.66f, 3.84f, 22.0f, 4.25f, 22.0f);
+        nVarA.p(5.0f, 21.66f, 5.0f, 21.25f);
+        nVarA.t(-4.5f);
+        nVarA.h(5.0f, 16.34f, 4.66f, 16.0f, 4.25f, 16.0f);
+        nVarA.g();
+        e.a(eVar, nVarA.f3166a, 0, m0Var2);
+        m0 m0Var3 = new m0(j);
+        n nVarA2 = k0.f.a(23.25f, 18.5f, 22.0f, -1.25f);
+        nVarA2.i(0.0f, -0.41f, -0.34f, -0.75f, -0.75f, -0.75f);
+        nVarA2.q(-0.75f, 0.34f, -0.75f, 0.75f);
+        nVarA2.t(1.25f);
+        nVarA2.k(-1.25f);
+        nVarA2.i(-0.41f, 0.0f, -0.75f, 0.34f, -0.75f, 0.75f);
+        nVarA2.p(18.84f, 20.0f, 19.25f, 20.0f);
+        nVarA2.k(1.25f);
+        nVarA2.t(1.25f);
+        nVarA2.i(0.0f, 0.41f, 0.34f, 0.75f, 0.75f, 0.75f);
+        nVarA2.p(22.0f, 21.66f, 22.0f, 21.25f);
+        nVarA2.s(20.0f);
+        nVarA2.k(1.25f);
+        nVarA2.i(0.41f, 0.0f, 0.75f, -0.34f, 0.75f, -0.75f);
+        nVarA2.p(23.66f, 18.5f, 23.25f, 18.5f);
+        nVarA2.g();
+        e.a(eVar, nVarA2.f3166a, 0, m0Var3);
+        m0 m0Var4 = new m0(j);
+        n nVarB = a.b(16.5f, 16.0f, -2.75f);
+        nVarB.h(13.34f, 16.0f, 13.0f, 16.34f, 13.0f, 16.75f);
+        nVarB.t(4.56f);
+        nVarB.i(0.0f, 0.38f, 0.31f, 0.69f, 0.69f, 0.69f);
+        nVarB.k(0.11f);
+        nVarB.i(0.38f, 0.0f, 0.69f, -0.31f, 0.69f, -0.69f);
+        k0.f.n(nVarB, 20.0f, 1.1f, 0.72f, 1.59f);
+        nVarB.i(0.11f, 0.25f, 0.36f, 0.41f, 0.63f, 0.41f);
+        nVarB.i(0.5f, 0.0f, 0.83f, -0.51f, 0.64f, -0.97f);
+        nVarB.l(17.1f, 19.9f);
+        nVarB.i(0.5f, -0.3f, 0.9f, -0.8f, 0.9f, -1.4f);
+        nVarB.t(-1.0f);
+        nVarB.h(18.0f, 16.67f, 17.33f, 16.0f, 16.5f, 16.0f);
+        a.u(nVarB, 16.5f, 18.5f, -2.0f, -1.0f);
+        b.g(nVarB, 2.0f, 18.5f);
+        e.a(eVar, nVarB.f3166a, 0, m0Var4);
+        m0 m0Var5 = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new k1.n(11.97f, 5.3f));
+        arrayList.add(new u(-1.02f, 2.89f));
+        d.c(2.1f, 0.0f, -1.02f, -2.89f, arrayList);
+        arrayList.add(j.f9074c);
+        e.a(eVar, arrayList, 0, m0Var5);
+        m0 m0Var6 = new m0(j);
+        n nVarA3 = a.a(12.0f, 2.0f);
+        nVarA3.h(8.69f, 2.0f, 6.0f, 4.69f, 6.0f, 8.0f);
+        nVarA3.q(2.69f, 6.0f, 6.0f, 6.0f);
+        nVarA3.q(6.0f, -2.69f, 6.0f, -6.0f);
+        nVarA3.p(15.31f, 2.0f, 12.0f, 2.0f);
+        nVarA3.g();
+        nVarA3.n(14.44f, 11.0f);
+        nVarA3.i(-0.24f, 0.0f, -0.45f, -0.15f, -0.53f, -0.38f);
+        nVarA3.m(-0.49f, -1.41f);
+        nVarA3.k(-2.83f);
+        nVarA3.m(-0.5f, 1.41f);
+        nVarA3.h(10.01f, 10.85f, 9.8f, 11.0f, 9.56f, 11.0f);
+        nVarA3.i(-0.39f, 0.0f, -0.67f, -0.39f, -0.53f, -0.76f);
+        nVarA3.m(2.12f, -5.65f);
+        nVarA3.h(11.29f, 4.23f, 11.62f, 4.0f, 12.0f, 4.0f);
+        nVarA3.q(0.71f, 0.23f, 0.85f, 0.59f);
+        nVarA3.m(2.12f, 5.65f);
+        nVarA3.h(15.11f, 10.61f, 14.84f, 11.0f, 14.44f, 11.0f);
+        nVarA3.g();
+        e.a(eVar, nVarA3.f3166a, 0, m0Var6);
+        f fVarB = eVar.b();
+        _hdrAutoSelect = fVarB;
+        return fVarB;
+    }
+}

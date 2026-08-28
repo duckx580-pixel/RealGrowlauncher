@@ -1,0 +1,126 @@
+package androidx.compose.material.icons.rounded;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.c;
+import k0.a;
+import k0.b;
+import k1.e;
+import k1.f;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class Timer10Kt {
+    private static f _timer10;
+
+    public static final f getTimer10(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _timer10;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.Timer10", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        m0 m0Var = new m0(t.f6905b);
+        n nVarC = a.c(-0.01f, 7.72f, -0.01f, 9.4f);
+        nVarC.m(3.0f, -1.0f);
+        nVarC.l(2.99f, 18.0f);
+        b.i(nVarC, 2.0f, 4.99f, 6.0f, -0.25f);
+        b.D(nVarC, -0.01f, 7.72f, 23.77f, 14.37f);
+        nVarC.i(-0.14f, -0.28f, -0.35f, -0.53f, -0.63f, -0.74f);
+        nVarC.i(-0.28f, -0.21f, -0.61f, -0.39f, -1.01f, -0.53f);
+        nVarC.q(-0.85f, -0.27f, -1.35f, -0.38f);
+        nVarC.i(-0.35f, -0.07f, -0.64f, -0.15f, -0.87f, -0.23f);
+        nVarC.i(-0.23f, -0.08f, -0.41f, -0.16f, -0.55f, -0.25f);
+        nVarC.q(-0.23f, -0.19f, -0.28f, -0.3f);
+        nVarC.i(-0.05f, -0.11f, -0.08f, -0.24f, -0.08f, -0.39f);
+        nVarC.i(0.0f, -0.14f, 0.03f, -0.28f, 0.09f, -0.41f);
+        nVarC.q(0.15f, -0.25f, 0.27f, -0.34f);
+        nVarC.i(0.12f, -0.1f, 0.27f, -0.18f, 0.45f, -0.24f);
+        nVarC.q(0.4f, -0.09f, 0.64f, -0.09f);
+        nVarC.i(0.25f, 0.0f, 0.47f, 0.04f, 0.66f, 0.11f);
+        nVarC.q(0.35f, 0.17f, 0.48f, 0.29f);
+        nVarC.q(0.22f, 0.26f, 0.29f, 0.42f);
+        nVarC.i(0.06f, 0.16f, 0.1f, 0.32f, 0.1f, 0.49f);
+        nVarC.k(1.95f);
+        nVarC.i(0.0f, -0.39f, -0.08f, -0.75f, -0.24f, -1.09f);
+        nVarC.q(-0.39f, -0.63f, -0.69f, -0.88f);
+        nVarC.i(-0.3f, -0.25f, -0.66f, -0.44f, -1.09f, -0.59f);
+        nVarC.i(-0.43f, -0.15f, -0.92f, -0.22f, -1.46f, -0.22f);
+        nVarC.i(-0.51f, 0.0f, -0.98f, 0.07f, -1.39f, 0.21f);
+        nVarC.q(-0.77f, 0.33f, -1.06f, 0.57f);
+        nVarC.i(-0.29f, 0.24f, -0.51f, 0.52f, -0.67f, 0.84f);
+        nVarC.i(-0.16f, 0.32f, -0.23f, 0.65f, -0.23f, 1.01f);
+        nVarC.q(0.08f, 0.69f, 0.23f, 0.96f);
+        nVarC.i(0.15f, 0.28f, 0.36f, 0.52f, 0.64f, 0.73f);
+        nVarC.i(0.27f, 0.21f, 0.6f, 0.38f, 0.98f, 0.53f);
+        nVarC.i(0.38f, 0.14f, 0.81f, 0.26f, 1.27f, 0.36f);
+        nVarC.i(0.39f, 0.08f, 0.71f, 0.17f, 0.95f, 0.26f);
+        nVarC.q(0.43f, 0.19f, 0.57f, 0.29f);
+        nVarC.i(0.13f, 0.1f, 0.22f, 0.22f, 0.27f, 0.34f);
+        nVarC.i(0.05f, 0.12f, 0.07f, 0.25f, 0.07f, 0.39f);
+        nVarC.i(0.0f, 0.32f, -0.13f, 0.57f, -0.4f, 0.77f);
+        nVarC.q(-0.66f, 0.29f, -1.17f, 0.29f);
+        nVarC.i(-0.22f, 0.0f, -0.43f, -0.02f, -0.64f, -0.08f);
+        nVarC.i(-0.21f, -0.05f, -0.4f, -0.13f, -0.56f, -0.24f);
+        nVarC.i(-0.17f, -0.11f, -0.3f, -0.26f, -0.41f, -0.44f);
+        nVarC.i(-0.11f, -0.18f, -0.17f, -0.41f, -0.18f, -0.67f);
+        nVarC.k(-1.89f);
+        nVarC.i(0.0f, 0.36f, 0.08f, 0.71f, 0.24f, 1.05f);
+        nVarC.q(0.39f, 0.65f, 0.7f, 0.93f);
+        nVarC.i(0.31f, 0.27f, 0.69f, 0.49f, 1.15f, 0.66f);
+        nVarC.q(0.98f, 0.25f, 1.58f, 0.25f);
+        nVarC.i(0.53f, 0.0f, 1.01f, -0.06f, 1.44f, -0.19f);
+        nVarC.i(0.43f, -0.13f, 0.8f, -0.31f, 1.11f, -0.54f);
+        nVarC.i(0.31f, -0.23f, 0.54f, -0.51f, 0.71f, -0.83f);
+        nVarC.i(0.17f, -0.32f, 0.25f, -0.67f, 0.25f, -1.06f);
+        nVarC.i(-0.02f, -0.4f, -0.09f, -0.74f, -0.24f, -1.02f);
+        nVarC.g();
+        nVarC.n(13.81f, 7.05f);
+        nVarC.i(-0.34f, -0.4f, -0.75f, -0.7f, -1.23f, -0.88f);
+        nVarC.i(-0.47f, -0.18f, -1.01f, -0.27f, -1.59f, -0.27f);
+        nVarC.q(-1.11f, 0.09f, -1.59f, 0.27f);
+        nVarC.i(-0.48f, 0.18f, -0.89f, 0.47f, -1.23f, 0.88f);
+        nVarC.i(-0.34f, 0.41f, -0.6f, 0.93f, -0.79f, 1.59f);
+        nVarC.i(-0.18f, 0.65f, -0.28f, 1.45f, -0.28f, 2.39f);
+        nVarC.t(1.92f);
+        nVarC.i(0.0f, 0.94f, 0.09f, 1.74f, 0.28f, 2.39f);
+        nVarC.i(0.19f, 0.66f, 0.45f, 1.19f, 0.8f, 1.6f);
+        nVarC.i(0.34f, 0.41f, 0.75f, 0.71f, 1.23f, 0.89f);
+        nVarC.q(1.01f, 0.28f, 1.59f, 0.28f);
+        nVarC.i(0.59f, 0.0f, 1.12f, -0.09f, 1.59f, -0.28f);
+        nVarC.i(0.48f, -0.18f, 0.88f, -0.48f, 1.22f, -0.89f);
+        nVarC.q(0.6f, -0.94f, 0.78f, -1.6f);
+        nVarC.i(0.18f, -0.65f, 0.28f, -1.45f, 0.28f, -2.39f);
+        nVarC.t(-1.92f);
+        nVarC.i(0.0f, -0.94f, -0.09f, -1.74f, -0.28f, -2.39f);
+        nVarC.i(-0.18f, -0.66f, -0.44f, -1.19f, -0.78f, -1.59f);
+        nVarC.g();
+        nVarC.n(12.89f, 13.22f);
+        nVarC.i(0.0f, 0.6f, -0.04f, 1.11f, -0.12f, 1.53f);
+        nVarC.q(-0.2f, 0.76f, -0.36f, 1.02f);
+        nVarC.i(-0.16f, 0.26f, -0.36f, 0.45f, -0.59f, 0.57f);
+        nVarC.i(-0.23f, 0.12f, -0.51f, 0.18f, -0.82f, 0.18f);
+        nVarC.i(-0.3f, 0.0f, -0.58f, -0.06f, -0.82f, -0.18f);
+        nVarC.q(-0.44f, -0.31f, -0.6f, -0.57f);
+        nVarC.i(-0.16f, -0.26f, -0.29f, -0.6f, -0.38f, -1.02f);
+        nVarC.q(-0.13f, -0.93f, -0.13f, -1.53f);
+        nVarC.t(-2.5f);
+        nVarC.i(0.0f, -0.6f, 0.04f, -1.11f, 0.13f, -1.52f);
+        nVarC.q(0.21f, -0.74f, 0.38f, -1.0f);
+        nVarC.i(0.16f, -0.25f, 0.36f, -0.43f, 0.6f, -0.55f);
+        nVarC.i(0.24f, -0.11f, 0.51f, -0.17f, 0.81f, -0.17f);
+        nVarC.i(0.31f, 0.0f, 0.58f, 0.06f, 0.81f, 0.17f);
+        nVarC.i(0.24f, 0.11f, 0.44f, 0.29f, 0.6f, 0.55f);
+        nVarC.i(0.16f, 0.25f, 0.29f, 0.58f, 0.37f, 0.99f);
+        nVarC.q(0.13f, 0.92f, 0.13f, 1.52f);
+        b.s(nVarC, 2.51f, -0.01f);
+        e.a(eVar, nVarC.f3166a, 0, m0Var);
+        f fVarB = eVar.b();
+        _timer10 = fVarB;
+        return fVarB;
+    }
+}

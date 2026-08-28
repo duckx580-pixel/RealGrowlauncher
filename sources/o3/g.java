@@ -1,0 +1,16 @@
+package o3;
+
+import android.content.res.Configuration;
+import android.os.LocaleList;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class g {
+    public static LocaleList a(Configuration configuration) {
+        return configuration.getLocales();
+    }
+
+    public static void b(Configuration configuration, j jVar) {
+        configuration.setLocales(jVar.f12653a.f12654a);
+    }
+}

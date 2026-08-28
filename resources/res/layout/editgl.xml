@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#ff3d4cf5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:elevation="10dp">
+        <ImageView
+            android:orientation="horizontal"
+            android:id="@+id/editsave"
+            android:background="@drawable/menu_button"
+            android:padding="10dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/icon_save"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"/>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="17sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/filename2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Small Text"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:textSize="14sp"
+            android:textColor="#ffffffff"
+            android:gravity="top|left"
+            android:id="@+id/editmain"
+            android:background="#ff202020"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="2000dp"
+            android:ems="10"/>
+    </ScrollView>
+</LinearLayout>

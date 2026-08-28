@@ -1,0 +1,124 @@
+package androidx.compose.material.icons.filled;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.a;
+import k1.e;
+import k1.f;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class MiscellaneousServicesKt {
+    private static f _miscellaneousServices;
+
+    public static final f getMiscellaneousServices(a aVar) {
+        l.f("<this>", aVar);
+        f fVar = _miscellaneousServices;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Filled.MiscellaneousServices", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        long j = t.f6905b;
+        m0 m0Var = new m0(j);
+        n nVarB = gb.e.b(14.17f, 13.71f, 1.4f, -2.42f);
+        nVarB.i(0.09f, -0.15f, 0.05f, -0.34f, -0.08f, -0.45f);
+        nVarB.m(-1.48f, -1.16f);
+        nVarB.i(0.03f, -0.22f, 0.05f, -0.45f, 0.05f, -0.68f);
+        nVarB.q(-0.02f, -0.46f, -0.05f, -0.69f);
+        nVarB.m(1.48f, -1.16f);
+        nVarB.i(0.13f, -0.11f, 0.17f, -0.3f, 0.08f, -0.45f);
+        nVarB.m(-1.4f, -2.42f);
+        nVarB.i(-0.09f, -0.15f, -0.27f, -0.21f, -0.43f, -0.15f);
+        nVarB.l(12.0f, 4.83f);
+        nVarB.i(-0.36f, -0.28f, -0.75f, -0.51f, -1.18f, -0.69f);
+        nVarB.m(-0.26f, -1.85f);
+        nVarB.h(10.53f, 2.13f, 10.38f, 2.0f, 10.21f, 2.0f);
+        nVarB.k(-2.8f);
+        nVarB.h(7.24f, 2.0f, 7.09f, 2.13f, 7.06f, 2.3f);
+        nVarB.l(6.8f, 4.15f);
+        nVarB.h(6.38f, 4.33f, 5.98f, 4.56f, 5.62f, 4.84f);
+        nVarB.m(-1.74f, -0.7f);
+        nVarB.i(-0.16f, -0.06f, -0.34f, 0.0f, -0.43f, 0.15f);
+        nVarB.m(-1.4f, 2.42f);
+        nVarB.h(1.96f, 6.86f, 2.0f, 7.05f, 2.13f, 7.16f);
+        nVarB.m(1.48f, 1.16f);
+        nVarB.h(3.58f, 8.54f, 3.56f, 8.77f, 3.56f, 9.0f);
+        nVarB.q(0.02f, 0.46f, 0.05f, 0.69f);
+        nVarB.m(-1.48f, 1.16f);
+        nVarB.h(2.0f, 10.96f, 1.96f, 11.15f, 2.05f, 11.3f);
+        nVarB.m(1.4f, 2.42f);
+        nVarB.i(0.09f, 0.15f, 0.27f, 0.21f, 0.43f, 0.15f);
+        nVarB.m(1.74f, -0.7f);
+        nVarB.i(0.36f, 0.28f, 0.75f, 0.51f, 1.18f, 0.69f);
+        nVarB.m(0.26f, 1.85f);
+        nVarB.h(7.09f, 15.87f, 7.24f, 16.0f, 7.41f, 16.0f);
+        nVarB.k(2.8f);
+        nVarB.i(0.17f, 0.0f, 0.32f, -0.13f, 0.35f, -0.3f);
+        nVarB.m(0.26f, -1.85f);
+        nVarB.i(0.42f, -0.18f, 0.82f, -0.41f, 1.18f, -0.69f);
+        nVarB.m(1.74f, 0.7f);
+        nVarB.h(13.9f, 13.92f, 14.08f, 13.86f, 14.17f, 13.71f);
+        nVarB.g();
+        nVarB.n(8.81f, 11.0f);
+        nVarB.i(-1.1f, 0.0f, -2.0f, -0.9f, -2.0f, -2.0f);
+        nVarB.i(0.0f, -1.1f, 0.9f, -2.0f, 2.0f, -2.0f);
+        nVarB.q(2.0f, 0.9f, 2.0f, 2.0f);
+        nVarB.h(10.81f, 10.1f, 9.91f, 11.0f, 8.81f, 11.0f);
+        nVarB.g();
+        e.a(eVar, nVarB.f3166a, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        n nVarB2 = gb.e.b(21.92f, 18.67f, -0.96f, -0.74f);
+        nVarB2.i(0.02f, -0.14f, 0.04f, -0.29f, 0.04f, -0.44f);
+        nVarB2.i(0.0f, -0.15f, -0.01f, -0.3f, -0.04f, -0.44f);
+        nVarB2.m(0.95f, -0.74f);
+        nVarB2.i(0.08f, -0.07f, 0.11f, -0.19f, 0.05f, -0.29f);
+        nVarB2.m(-0.9f, -1.55f);
+        nVarB2.i(-0.05f, -0.1f, -0.17f, -0.13f, -0.28f, -0.1f);
+        nVarB2.m(-1.11f, 0.45f);
+        nVarB2.i(-0.23f, -0.18f, -0.48f, -0.33f, -0.76f, -0.44f);
+        nVarB2.m(-0.17f, -1.18f);
+        nVarB2.h(18.73f, 13.08f, 18.63f, 13.0f, 18.53f, 13.0f);
+        nVarB2.k(-1.79f);
+        nVarB2.i(-0.11f, 0.0f, -0.21f, 0.08f, -0.22f, 0.19f);
+        nVarB2.m(-0.17f, 1.18f);
+        nVarB2.i(-0.27f, 0.12f, -0.53f, 0.26f, -0.76f, 0.44f);
+        nVarB2.m(-1.11f, -0.45f);
+        nVarB2.i(-0.1f, -0.04f, -0.22f, 0.0f, -0.28f, 0.1f);
+        nVarB2.m(-0.9f, 1.55f);
+        nVarB2.i(-0.05f, 0.1f, -0.04f, 0.22f, 0.05f, 0.29f);
+        nVarB2.m(0.95f, 0.74f);
+        nVarB2.i(-0.02f, 0.14f, -0.03f, 0.29f, -0.03f, 0.44f);
+        nVarB2.i(0.0f, 0.15f, 0.01f, 0.3f, 0.03f, 0.44f);
+        nVarB2.m(-0.95f, 0.74f);
+        nVarB2.i(-0.08f, 0.07f, -0.11f, 0.19f, -0.05f, 0.29f);
+        nVarB2.m(0.9f, 1.55f);
+        nVarB2.i(0.05f, 0.1f, 0.17f, 0.13f, 0.28f, 0.1f);
+        nVarB2.m(1.11f, -0.45f);
+        nVarB2.i(0.23f, 0.18f, 0.48f, 0.33f, 0.76f, 0.44f);
+        nVarB2.m(0.17f, 1.18f);
+        nVarB2.i(0.02f, 0.11f, 0.11f, 0.19f, 0.22f, 0.19f);
+        nVarB2.k(1.79f);
+        nVarB2.i(0.11f, 0.0f, 0.21f, -0.08f, 0.22f, -0.19f);
+        nVarB2.m(0.17f, -1.18f);
+        nVarB2.i(0.27f, -0.12f, 0.53f, -0.26f, 0.75f, -0.44f);
+        nVarB2.m(1.12f, 0.45f);
+        nVarB2.i(0.1f, 0.04f, 0.22f, 0.0f, 0.28f, -0.1f);
+        nVarB2.m(0.9f, -1.55f);
+        nVarB2.h(22.03f, 18.86f, 22.0f, 18.74f, 21.92f, 18.67f);
+        nVarB2.g();
+        nVarB2.n(17.63f, 18.83f);
+        nVarB2.i(-0.74f, 0.0f, -1.35f, -0.6f, -1.35f, -1.35f);
+        nVarB2.q(0.6f, -1.35f, 1.35f, -1.35f);
+        nVarB2.q(1.35f, 0.6f, 1.35f, 1.35f);
+        nVarB2.p(18.37f, 18.83f, 17.63f, 18.83f);
+        nVarB2.g();
+        e.a(eVar, nVarB2.f3166a, 0, m0Var2);
+        f fVarB = eVar.b();
+        _miscellaneousServices = fVarB;
+        return fVarB;
+    }
+}

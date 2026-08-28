@@ -1,0 +1,15 @@
+package t3;
+
+import android.view.accessibility.AccessibilityEvent;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class b {
+    public static int a(AccessibilityEvent accessibilityEvent) {
+        return accessibilityEvent.getContentChangeTypes();
+    }
+
+    public static void b(AccessibilityEvent accessibilityEvent, int i10) {
+        accessibilityEvent.setContentChangeTypes(i10);
+    }
+}

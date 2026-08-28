@@ -1,0 +1,25 @@
+package yj;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class f extends g {
+    @Override // yj.g
+    public final int a(int i10) {
+        int i11 = this.f20433b;
+        if (i10 == i11 || (i10 >= 0 && i10 < i11)) {
+            return i10;
+        }
+        d(i10, i11 - 1, "Char");
+        throw null;
+    }
+
+    @Override // yj.g
+    public final int b(int i10) {
+        int i11 = this.f20433b;
+        if (i10 == i11 || (i10 >= 0 && i10 < i11)) {
+            return i10;
+        }
+        d(i10, i11 - 1, "Byte");
+        throw null;
+    }
+}

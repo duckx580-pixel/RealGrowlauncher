@@ -1,0 +1,45 @@
+###### Class v5.n (v5.n)
+.class public final Lv5/n;
+.super Ljava/lang/Object;
+.source "r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb"
+
+
+# static fields
+.field public static final a:Lv5/n;
+
+.field public static final b:Ljava/util/WeakHashMap;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lv5/n;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lv5/n;->a:Lv5/n;
+
+    .line 7
+    .line 8
+    new-instance v0, Ljava/util/WeakHashMap;
+
+    .line 9
+    .line 10
+    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
+
+    .line 11
+    .line 12
+    .line 13
+    sput-object v0, Lv5/n;->b:Ljava/util/WeakHashMap;
+
+    .line 14
+    .line 15
+    return-void
+.end method

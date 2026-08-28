@@ -1,0 +1,77 @@
+package androidx.compose.material.icons.outlined;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.b;
+import java.util.ArrayList;
+import k0.a;
+import k0.d;
+import k1.e;
+import k1.f;
+import k1.j;
+import k1.u;
+import k1.z;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class FactCheckKt {
+    private static f _factCheck;
+
+    public static final f getFactCheck(b bVar) {
+        l.f("<this>", bVar);
+        f fVar = _factCheck;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Outlined.FactCheck", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        long j = t.f6905b;
+        m0 m0Var = new m0(j);
+        n nVarS = a.s(20.0f, 3.0f, 4.0f);
+        nVarS.h(2.9f, 3.0f, 2.0f, 3.9f, 2.0f, 5.0f);
+        nVarS.t(14.0f);
+        nVarS.i(0.0f, 1.1f, 0.9f, 2.0f, 2.0f, 2.0f);
+        nVarS.k(16.0f);
+        nVarS.i(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        nVarS.s(5.0f);
+        nVarS.h(22.0f, 3.9f, 21.1f, 3.0f, 20.0f, 3.0f);
+        k0.b.B(nVarS, 20.0f, 19.0f, 4.0f, 5.0f);
+        k0.b.g(nVarS, 16.0f, 19.0f);
+        e.a(eVar, nVarS.f3166a, 1, m0Var);
+        m0 m0Var2 = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new k1.n(19.41f, 10.42f));
+        arrayList.add(new u(-1.42f, -1.42f));
+        arrayList.add(new u(-3.17f, 3.17f));
+        arrayList.add(new u(-1.41f, -1.42f));
+        d.c(-1.41f, 1.41f, 2.82f, 2.84f, arrayList);
+        j jVar = j.f9074c;
+        arrayList.add(jVar);
+        e.a(eVar, arrayList, 1, m0Var2);
+        m0 m0Var3 = new m0(j);
+        ArrayList arrayList2 = new ArrayList(32);
+        arrayList2.add(new k1.n(5.0f, 7.0f));
+        arrayList2.add(new k1.t(5.0f));
+        arrayList2.add(new z(2.0f));
+        a.h(-5.0f, arrayList2, jVar);
+        e.a(eVar, arrayList2, 1, m0Var3);
+        m0 m0Var4 = new m0(j);
+        ArrayList arrayList3 = new ArrayList(32);
+        arrayList3.add(new k1.n(5.0f, 11.0f));
+        arrayList3.add(new k1.t(5.0f));
+        arrayList3.add(new z(2.0f));
+        a.h(-5.0f, arrayList3, jVar);
+        e.a(eVar, arrayList3, 1, m0Var4);
+        m0 m0Var5 = new m0(j);
+        ArrayList arrayList4 = new ArrayList(32);
+        arrayList4.add(new k1.n(5.0f, 15.0f));
+        arrayList4.add(new k1.t(5.0f));
+        arrayList4.add(new z(2.0f));
+        a.h(-5.0f, arrayList4, jVar);
+        e.a(eVar, arrayList4, 1, m0Var5);
+        f fVarB = eVar.b();
+        _factCheck = fVarB;
+        return fVarB;
+    }
+}

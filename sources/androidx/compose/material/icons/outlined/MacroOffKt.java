@@ -1,0 +1,122 @@
+package androidx.compose.material.icons.outlined;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.b;
+import java.util.ArrayList;
+import k0.a;
+import k1.e;
+import k1.f;
+import k1.h0;
+import k1.j;
+import k1.k;
+import k1.m;
+import k1.s;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class MacroOffKt {
+    private static f _macroOff;
+
+    public static final f getMacroOff(b bVar) {
+        l.f("<this>", bVar);
+        f fVar = _macroOff;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Outlined.MacroOff", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        long j = t.f6905b;
+        m0 m0Var = new m0(j);
+        n nVarA = a.a(8.66f, 4.93f);
+        nVarA.h(8.9f, 4.93f, 9.12f, 5.0f, 9.3f, 5.13f);
+        nVarA.m(0.81f, 0.56f);
+        nVarA.h(9.82f, 5.93f, 9.57f, 6.23f, 9.39f, 6.56f);
+        nVarA.m(1.66f, 1.66f);
+        nVarA.h(11.03f, 8.14f, 11.0f, 8.08f, 11.0f, 8.0f);
+        nVarA.i(0.0f, -0.55f, 0.45f, -1.0f, 1.0f, -1.0f);
+        nVarA.q(1.0f, 0.45f, 1.0f, 1.0f);
+        nVarA.q(-0.45f, 1.0f, -1.0f, 1.0f);
+        nVarA.i(-0.08f, 0.0f, -0.14f, -0.03f, -0.22f, -0.04f);
+        nVarA.m(4.06f, 4.06f);
+        nVarA.i(1.49f, -0.24f, 2.63f, -1.53f, 2.63f, -3.09f);
+        nVarA.i(0.0f, -0.71f, -0.25f, -1.39f, -0.67f, -1.93f);
+        nVarA.i(0.43f, -0.54f, 0.67f, -1.22f, 0.67f, -1.93f);
+        nVarA.i(0.0f, -1.73f, -1.41f, -3.14f, -3.14f, -3.14f);
+        nVarA.i(-0.15f, 0.0f, -0.29f, 0.01f, -0.43f, 0.03f);
+        nVarA.h(14.44f, 1.81f, 13.31f, 1.0f, 12.0f, 1.0f);
+        nVarA.p(9.56f, 1.81f, 9.09f, 2.96f);
+        nVarA.h(8.95f, 2.94f, 8.8f, 2.93f, 8.66f, 2.93f);
+        nVarA.i(-0.8f, 0.0f, -1.53f, 0.31f, -2.09f, 0.81f);
+        nVarA.m(1.42f, 1.42f);
+        nVarA.h(8.19f, 5.03f, 8.41f, 4.93f, 8.66f, 4.93f);
+        nVarA.g();
+        nVarA.n(15.34f, 11.07f);
+        nVarA.i(-0.24f, 0.0f, -0.46f, -0.07f, -0.64f, -0.2f);
+        nVarA.m(-0.81f, -0.57f);
+        nVarA.i(0.55f, -0.45f, 0.94f, -1.09f, 1.06f, -1.83f);
+        nVarA.m(0.88f, 0.42f);
+        nVarA.i(0.4f, 0.19f, 0.66f, 0.59f, 0.66f, 1.03f);
+        nVarA.h(16.49f, 10.56f, 15.97f, 11.07f, 15.34f, 11.07f);
+        nVarA.g();
+        nVarA.n(14.69f, 5.13f);
+        nVarA.i(0.2f, -0.13f, 0.42f, -0.2f, 0.65f, -0.2f);
+        nVarA.i(0.63f, 0.0f, 1.14f, 0.51f, 1.14f, 1.14f);
+        nVarA.i(0.0f, 0.44f, -0.25f, 0.83f, -0.66f, 1.03f);
+        nVarA.m(-0.88f, 0.42f);
+        nVarA.i(-0.12f, -0.74f, -0.51f, -1.38f, -1.07f, -1.83f);
+        k0.b.D(nVarA, 14.69f, 5.13f, 12.0f, 3.0f);
+        nVarA.i(0.62f, 0.0f, 1.12f, 0.49f, 1.14f, 1.1f);
+        nVarA.m(-0.11f, 1.09f);
+        nVarA.h(12.71f, 5.07f, 12.36f, 5.0f, 12.0f, 5.0f);
+        nVarA.q(-0.7f, 0.07f, -1.02f, 0.19f);
+        nVarA.l(10.86f, 4.1f);
+        nVarA.h(10.88f, 3.49f, 11.38f, 3.0f, 12.0f, 3.0f);
+        nVarA.g();
+        e.a(eVar, nVarA.f3166a, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new k1.n(19.98f, 17.15f));
+        arrayList.add(new k(20.63f, 15.91f, 21.0f, 14.5f, 21.0f, 13.0f));
+        arrayList.add(new s(-1.5f, 0.0f, -2.91f, 0.37f, -4.15f, 1.02f));
+        arrayList.add(new m(19.98f, 17.15f));
+        j jVar = j.f9074c;
+        arrayList.add(jVar);
+        e.a(eVar, arrayList, 0, m0Var2);
+        m0 m0Var3 = new m0(j);
+        ArrayList arrayList2 = new ArrayList(32);
+        arrayList2.add(new k1.n(3.0f, 13.0f));
+        arrayList2.add(new s(0.0f, 4.97f, 4.03f, 9.0f, 9.0f, 9.0f));
+        arrayList2.add(new k(12.0f, 17.03f, 7.97f, 13.0f, 3.0f, 13.0f));
+        arrayList2.add(jVar);
+        arrayList2.add(new k1.n(5.44f, 15.44f));
+        arrayList2.add(new s(1.9f, 0.71f, 3.42f, 2.22f, 4.12f, 4.12f));
+        arrayList2.add(new k(7.66f, 18.85f, 6.15f, 17.34f, 5.44f, 15.44f));
+        arrayList2.add(jVar);
+        e.a(eVar, arrayList2, 0, m0Var3);
+        m0 m0Var4 = new m0(j);
+        n nVarC = a.c(2.81f, 2.81f, 1.39f, 4.22f);
+        nVarC.m(4.42f, 4.42f);
+        nVarC.i(-0.19f, 0.4f, -0.3f, 0.84f, -0.3f, 1.29f);
+        nVarC.i(0.0f, 1.73f, 1.41f, 3.14f, 3.15f, 3.14f);
+        nVarC.i(0.15f, 0.0f, 0.29f, -0.01f, 0.43f, -0.03f);
+        nVarC.h(9.56f, 14.19f, 10.69f, 15.0f, 12.0f, 15.0f);
+        nVarC.i(0.05f, 0.0f, 0.11f, -0.01f, 0.16f, -0.01f);
+        nVarC.m(1.64f, 1.64f);
+        nVarC.h(12.67f, 18.12f, 12.0f, 19.98f, 12.0f, 22.0f);
+        nVarC.i(2.02f, 0.0f, 3.88f, -0.67f, 5.38f, -1.8f);
+        nVarC.m(2.4f, 2.4f);
+        gb.e.p(nVarC, 1.41f, -1.41f, 2.81f, 2.81f);
+        nVarC.n(14.44f, 19.56f);
+        nVarC.i(0.2f, -0.54f, 0.47f, -1.04f, 0.79f, -1.5f);
+        nVarC.m(0.72f, 0.72f);
+        nVarC.h(15.48f, 19.09f, 14.98f, 19.36f, 14.44f, 19.56f);
+        nVarC.g();
+        e.a(eVar, nVarC.f3166a, 0, m0Var4);
+        f fVarB = eVar.b();
+        _macroOff = fVarB;
+        return fVarB;
+    }
+}

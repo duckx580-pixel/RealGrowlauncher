@@ -1,0 +1,85 @@
+package androidx.compose.material.icons.rounded;
+
+import g1.m0;
+import g1.t;
+import j0.c;
+import java.util.ArrayList;
+import k0.a;
+import k1.e;
+import k1.f;
+import k1.h0;
+import k1.n;
+import k1.r;
+import k1.v;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class BlindKt {
+    private static f _blind;
+
+    public static final f getBlind(c cVar) {
+        l.f("<this>", cVar);
+        f fVar = _blind;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Rounded.Blind", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        long j = t.f6905b;
+        m0 m0Var = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new n(11.41f, 3.5f));
+        arrayList.add(new v(-2.0f, 0.0f));
+        arrayList.add(new r(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f));
+        arrayList.add(new r(2.0f, 2.0f, 0.0f, true, true, -4.0f, 0.0f));
+        e.a(eVar, arrayList, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        bj.n nVarA = a.a(12.04f, 7.12f);
+        nVarA.i(-0.17f, -0.35f, -0.44f, -0.65f, -0.8f, -0.85f);
+        nVarA.h(10.63f, 5.91f, 9.9f, 5.93f, 9.31f, 6.24f);
+        nVarA.m(0.0f, -0.01f);
+        nVarA.l(4.92f, 8.73f);
+        nVarA.h(4.3f, 9.08f, 3.91f, 9.74f, 3.91f, 10.46f);
+        nVarA.s(13.0f);
+        nVarA.i(0.0f, 0.55f, 0.45f, 1.0f, 1.0f, 1.0f);
+        nVarA.k(0.0f);
+        nVarA.i(0.55f, 0.0f, 1.0f, -0.45f, 1.0f, -1.0f);
+        nVarA.t(-2.54f);
+        nVarA.m(1.5f, -0.85f);
+        nVarA.i(-0.32f, 1.1f, -0.5f, 2.24f, -0.5f, 3.39f);
+        nVarA.t(5.33f);
+        nVarA.m(-2.0f, 2.67f);
+        nVarA.i(-0.33f, 0.44f, -0.24f, 1.07f, 0.2f, 1.4f);
+        nVarA.m(0.0f, 0.0f);
+        nVarA.i(0.44f, 0.33f, 1.07f, 0.24f, 1.4f, -0.2f);
+        nVarA.m(2.04f, -2.72f);
+        nVarA.i(0.23f, -0.31f, 0.37f, -0.69f, 0.4f, -1.08f);
+        nVarA.m(0.18f, -2.94f);
+        nVarA.l(10.91f, 18.0f);
+        nVarA.t(4.0f);
+        nVarA.i(0.0f, 0.55f, 0.45f, 1.0f, 1.0f, 1.0f);
+        nVarA.k(0.0f);
+        nVarA.i(0.55f, 0.0f, 1.0f, -0.45f, 1.0f, -1.0f);
+        nVarA.t(-4.87f);
+        nVarA.i(0.0f, -0.41f, -0.13f, -0.81f, -0.36f, -1.15f);
+        nVarA.m(-1.6f, -2.29f);
+        nVarA.i(0.0f, 0.0f, 0.0f, 0.0f, 0.0f, -0.01f);
+        nVarA.i(-0.11f, -1.16f, 0.07f, -2.32f, 0.46f, -3.4f);
+        nVarA.i(0.75f, 1.14f, 1.88f, 1.98f, 3.2f, 2.41f);
+        nVarA.m(5.7f, 9.87f);
+        nVarA.i(0.14f, 0.24f, 0.44f, 0.32f, 0.68f, 0.18f);
+        nVarA.m(0.0f, 0.0f);
+        nVarA.i(0.24f, -0.14f, 0.32f, -0.44f, 0.18f, -0.68f);
+        nVarA.l(15.92f, 13.0f);
+        nVarA.k(0.0f);
+        nVarA.i(0.54f, 0.0f, 0.98f, -0.44f, 0.98f, -0.98f);
+        nVarA.t(-0.05f);
+        nVarA.i(0.0f, -0.5f, -0.37f, -0.94f, -0.87f, -0.99f);
+        nVarA.i(-0.95f, -0.1f, -2.37f, -0.52f, -3.21f, -2.18f);
+        e.a(eVar, nVarA.f3166a, 0, m0Var2);
+        f fVarB = eVar.b();
+        _blind = fVarB;
+        return fVarB;
+    }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#ff230f1f"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_250sdp">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/_13ssp"
+        android:textColor="#ffffffff"
+        android:id="@+id/scriptmanagerlayoutTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_7sdp"
+        android:text="ModGL Manager :"
+        android:fontFamily="@font/pixi"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_below="@+id/scriptmanagerlayoutTextView1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/scriptmanagerList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </HorizontalScrollView>
+</RelativeLayout>

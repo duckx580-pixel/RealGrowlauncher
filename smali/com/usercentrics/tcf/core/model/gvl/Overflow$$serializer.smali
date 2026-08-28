@@ -1,0 +1,278 @@
+###### Class com.usercentrics.tcf.core.model.gvl.Overflow$$serializer (com.usercentrics.tcf.core.model.gvl.Overflow$$serializer)
+.class public final Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;
+.super Ljava/lang/Object;
+.source "r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb"
+
+# interfaces
+.implements Lbi/w;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/usercentrics/tcf/core/model/gvl/Overflow;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "$serializer"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lbi/w;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final INSTANCE:Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;
+
+.field private static final descriptor:Lbi/q0;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 4
+
+    .line 1
+    new-instance v0, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;->INSTANCE:Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;
+
+    .line 7
+    .line 8
+    new-instance v1, Lbi/q0;
+
+    .line 9
+    .line 10
+    const-string v2, "com.usercentrics.tcf.core.model.gvl.Overflow"
+
+    .line 11
+    .line 12
+    const/4 v3, 0x1
+
+    .line 13
+    invoke-direct {v1, v2, v0, v3}, Lbi/q0;-><init>(Ljava/lang/String;Lbi/w;I)V
+
+    .line 14
+    .line 15
+    .line 16
+    const-string v0, "httpGetLimit"
+
+    .line 17
+    .line 18
+    const/4 v2, 0x0
+
+    .line 19
+    invoke-virtual {v1, v0, v2}, Lbi/q0;->j(Ljava/lang/String;Z)V
+
+    .line 20
+    .line 21
+    .line 22
+    sput-object v1, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;->descriptor:Lbi/q0;
+
+    .line 23
+    .line 24
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .registers 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public childSerializers()[Lxh/c;
+    .registers 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()[",
+            "Lxh/c;"
+        }
+    .end annotation
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    new-array v0, v0, [Lxh/c;
+
+    .line 3
+    .line 4
+    sget-object v1, Lbi/d0;->a:Lbi/d0;
+
+    .line 5
+    .line 6
+    const/4 v2, 0x0
+
+    .line 7
+    aput-object v1, v0, v2
+
+    .line 8
+    .line 9
+    return-object v0
+.end method
+
+.method public deserialize(Lai/c;)Lcom/usercentrics/tcf/core/model/gvl/Overflow;
+    .registers 10
+
+    const-string v0, "decoder"
+
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/l;->f(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 1
+    invoke-virtual {p0}, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;->getDescriptor()Lzh/g;
+
+    move-result-object v0
+
+    invoke-interface {p1, v0}, Lai/c;->d(Lzh/g;)Lai/a;
+
+    move-result-object p1
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    move v4, v1
+
+    move v5, v4
+
+    move v3, v2
+
+    :goto_12
+    if-eqz v3, :cond_2b
+
+    invoke-interface {p1, v0}, Lai/a;->u(Lzh/g;)I
+
+    move-result v6
+
+    const/4 v7, -0x1
+
+    if-eq v6, v7, :cond_29
+
+    if-nez v6, :cond_23
+
+    invoke-interface {p1, v0, v1}, Lai/a;->w(Lzh/g;I)I
+
+    move-result v4
+
+    move v5, v2
+
+    goto :goto_12
+
+    :cond_23
+    new-instance p1, Ldi/g;
+
+    invoke-direct {p1, v6}, Ldi/g;-><init>(I)V
+
+    throw p1
+
+    :cond_29
+    move v3, v1
+
+    goto :goto_12
+
+    :cond_2b
+    invoke-interface {p1, v0}, Lai/a;->b(Lzh/g;)V
+
+    new-instance p1, Lcom/usercentrics/tcf/core/model/gvl/Overflow;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p1, v5, v4, v0}, Lcom/usercentrics/tcf/core/model/gvl/Overflow;-><init>(IILbi/y0;)V
+
+    return-object p1
+.end method
+
+.method public bridge synthetic deserialize(Lai/c;)Ljava/lang/Object;
+    .registers 2
+
+    .line 2
+    invoke-virtual {p0, p1}, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;->deserialize(Lai/c;)Lcom/usercentrics/tcf/core/model/gvl/Overflow;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public getDescriptor()Lzh/g;
+    .registers 2
+
+    .line 1
+    sget-object v0, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;->descriptor:Lbi/q0;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public serialize(Lai/d;Lcom/usercentrics/tcf/core/model/gvl/Overflow;)V
+    .registers 4
+
+    const-string v0, "encoder"
+
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/l;->f(Ljava/lang/String;Ljava/lang/Object;)V
+
+    const-string/jumbo v0, "value"
+
+    invoke-static {v0, p2}, Lkotlin/jvm/internal/l;->f(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 1
+    invoke-virtual {p0}, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;->getDescriptor()Lzh/g;
+
+    move-result-object v0
+
+    invoke-interface {p1, v0}, Lai/d;->d(Lzh/g;)Lai/b;
+
+    move-result-object p1
+
+    invoke-static {p2, p1, v0}, Lcom/usercentrics/tcf/core/model/gvl/Overflow;->write$Self$usercentrics_release(Lcom/usercentrics/tcf/core/model/gvl/Overflow;Lai/b;Lzh/g;)V
+
+    invoke-interface {p1, v0}, Lai/b;->b(Lzh/g;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic serialize(Lai/d;Ljava/lang/Object;)V
+    .registers 3
+
+    .line 2
+    check-cast p2, Lcom/usercentrics/tcf/core/model/gvl/Overflow;
+
+    invoke-virtual {p0, p1, p2}, Lcom/usercentrics/tcf/core/model/gvl/Overflow$$serializer;->serialize(Lai/d;Lcom/usercentrics/tcf/core/model/gvl/Overflow;)V
+
+    return-void
+.end method
+
+.method public typeParametersSerializers()[Lxh/c;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()[",
+            "Lxh/c;"
+        }
+    .end annotation
+
+    .line 1
+    sget-object v0, Lbi/o0;->b:[Lxh/c;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method

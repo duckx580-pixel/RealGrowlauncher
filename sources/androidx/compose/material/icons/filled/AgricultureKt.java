@@ -1,0 +1,124 @@
+package androidx.compose.material.icons.filled;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.a;
+import java.util.ArrayList;
+import k0.b;
+import k1.e;
+import k1.f;
+import k1.h0;
+import k1.j;
+import k1.k;
+import k1.s;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class AgricultureKt {
+    private static f _agriculture;
+
+    public static final f getAgriculture(a aVar) {
+        l.f("<this>", aVar);
+        f fVar = _agriculture;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Filled.Agriculture", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        long j = t.f6905b;
+        m0 m0Var = new m0(j);
+        n nVarA = k0.a.a(19.5f, 12.0f);
+        nVarA.i(0.93f, 0.0f, 1.78f, 0.28f, 2.5f, 0.76f);
+        nVarA.s(8.0f);
+        nVarA.i(0.0f, -1.1f, -0.9f, -2.0f, -2.0f, -2.0f);
+        nVarA.k(-6.29f);
+        nVarA.m(-1.06f, -1.06f);
+        nVarA.m(1.41f, -1.41f);
+        nVarA.m(-0.71f, -0.71f);
+        nVarA.l(9.82f, 6.35f);
+        nVarA.m(0.71f, 0.71f);
+        nVarA.m(1.41f, -1.41f);
+        nVarA.l(13.0f, 6.71f);
+        nVarA.s(9.0f);
+        nVarA.i(0.0f, 1.1f, -0.9f, 2.0f, -2.0f, 2.0f);
+        nVarA.k(-0.54f);
+        nVarA.i(0.95f, 1.06f, 1.54f, 2.46f, 1.54f, 4.0f);
+        nVarA.i(0.0f, 0.34f, -0.04f, 0.67f, -0.09f, 1.0f);
+        nVarA.k(3.14f);
+        nVarA.h(15.3f, 13.75f, 17.19f, 12.0f, 19.5f, 12.0f);
+        nVarA.g();
+        e.a(eVar, nVarA.f3166a, 0, m0Var);
+        m0 m0Var2 = new m0(j);
+        n nVarA2 = k0.a.a(19.5f, 13.0f);
+        nVarA2.i(-1.93f, 0.0f, -3.5f, 1.57f, -3.5f, 3.5f);
+        nVarA2.q(1.57f, 3.5f, 3.5f, 3.5f);
+        nVarA2.q(3.5f, -1.57f, 3.5f, -3.5f);
+        nVarA2.p(21.43f, 13.0f, 19.5f, 13.0f);
+        nVarA2.g();
+        nVarA2.n(19.5f, 18.0f);
+        nVarA2.i(-0.83f, 0.0f, -1.5f, -0.67f, -1.5f, -1.5f);
+        nVarA2.q(0.67f, -1.5f, 1.5f, -1.5f);
+        nVarA2.q(1.5f, 0.67f, 1.5f, 1.5f);
+        nVarA2.p(20.33f, 18.0f, 19.5f, 18.0f);
+        nVarA2.g();
+        e.a(eVar, nVarA2.f3166a, 0, m0Var2);
+        m0 m0Var3 = new m0(j);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new k1.n(4.0f, 9.0f));
+        arrayList.add(new k1.t(5.0f));
+        arrayList.add(new s(0.0f, -1.1f, -0.9f, -2.0f, -2.0f, -2.0f));
+        arrayList.add(new k1.l(4.0f));
+        arrayList.add(new k(3.45f, 7.0f, 3.0f, 7.45f, 3.0f, 8.0f));
+        arrayList.add(new k(3.0f, 8.55f, 3.45f, 9.0f, 4.0f, 9.0f));
+        arrayList.add(j.f9074c);
+        e.a(eVar, arrayList, 0, m0Var3);
+        m0 m0Var4 = new m0(j);
+        n nVarB = gb.e.b(9.83f, 13.82f, -0.18f, -0.47f);
+        nVarB.l(10.58f, 13.0f);
+        nVarB.i(-0.46f, -1.06f, -1.28f, -1.91f, -2.31f, -2.43f);
+        nVarB.m(-0.4f, 0.89f);
+        nVarB.m(-0.46f, -0.21f);
+        nVarB.m(0.4f, -0.9f);
+        nVarB.h(7.26f, 10.13f, 6.64f, 10.0f, 6.0f, 10.0f);
+        nVarB.i(-0.53f, 0.0f, -1.04f, 0.11f, -1.52f, 0.26f);
+        nVarB.m(0.34f, 0.91f);
+        nVarB.m(-0.47f, 0.18f);
+        nVarB.l(4.0f, 10.42f);
+        nVarB.i(-1.06f, 0.46f, -1.91f, 1.28f, -2.43f, 2.31f);
+        nVarB.m(0.89f, 0.4f);
+        nVarB.m(-0.21f, 0.46f);
+        nVarB.m(-0.9f, -0.4f);
+        nVarB.h(1.13f, 13.74f, 1.0f, 14.36f, 1.0f, 15.0f);
+        nVarB.i(0.0f, 0.53f, 0.11f, 1.04f, 0.26f, 1.52f);
+        nVarB.m(0.91f, -0.34f);
+        nVarB.m(0.18f, 0.47f);
+        nVarB.l(1.42f, 17.0f);
+        nVarB.i(0.46f, 1.06f, 1.28f, 1.91f, 2.31f, 2.43f);
+        nVarB.m(0.4f, -0.89f);
+        nVarB.m(0.46f, 0.21f);
+        nVarB.m(-0.4f, 0.9f);
+        nVarB.h(4.74f, 19.87f, 5.36f, 20.0f, 6.0f, 20.0f);
+        nVarB.i(0.53f, 0.0f, 1.04f, -0.11f, 1.52f, -0.26f);
+        nVarB.m(-0.34f, -0.91f);
+        nVarB.m(0.47f, -0.18f);
+        nVarB.l(8.0f, 19.58f);
+        nVarB.i(1.06f, -0.46f, 1.91f, -1.28f, 2.43f, -2.31f);
+        nVarB.m(-0.89f, -0.4f);
+        nVarB.m(0.21f, -0.46f);
+        nVarB.m(0.9f, 0.4f);
+        nVarB.h(10.87f, 16.26f, 11.0f, 15.64f, 11.0f, 15.0f);
+        nVarB.i(0.0f, -0.53f, -0.11f, -1.04f, -0.26f, -1.52f);
+        b.D(nVarB, 9.83f, 13.82f, 7.15f, 17.77f);
+        nVarB.i(-1.53f, 0.63f, -3.29f, -0.09f, -3.92f, -1.62f);
+        nVarB.i(-0.63f, -1.53f, 0.09f, -3.29f, 1.62f, -3.92f);
+        nVarB.i(1.53f, -0.63f, 3.29f, 0.09f, 3.92f, 1.62f);
+        nVarB.h(9.41f, 15.38f, 8.68f, 17.14f, 7.15f, 17.77f);
+        nVarB.g();
+        e.a(eVar, nVarB.f3166a, 0, m0Var4);
+        f fVarB = eVar.b();
+        _agriculture = fVarB;
+        return fVarB;
+    }
+}

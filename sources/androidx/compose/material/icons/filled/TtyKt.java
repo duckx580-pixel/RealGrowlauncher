@@ -1,0 +1,67 @@
+package androidx.compose.material.icons.filled;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.a;
+import k0.b;
+import k0.c;
+import k0.d;
+import k1.e;
+import k1.f;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-216c52465204c007d2cab591749625bb7374c85f4921881fbf339e9fc0348ecb */
+/* JADX INFO: loaded from: classes.dex */
+public final class TtyKt {
+    private static f _tty;
+
+    public static final f getTty(a aVar) {
+        l.f("<this>", aVar);
+        f fVar = _tty;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Filled.Tty", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9066a;
+        m0 m0Var = new m0(t.f6905b);
+        n nVarC = gb.e.c(14.0f, 4.0f, 2.0f, 2.0f, -2.0f);
+        c.j(nVarC, 4.0f, 13.0f, 7.0f, 2.0f);
+        b.q(nVarC, 2.0f, -2.0f, 7.0f);
+        k0.a.p(nVarC, 11.0f, 4.0f, 2.0f, 2.0f);
+        gb.e.r(nVarC, -2.0f, 4.0f, 18.0f, 9.0f);
+        d.D(nVarC, -2.0f, 7.0f, 2.0f, 9.0f);
+        d.e(nVarC, 19.0f, 6.0f, -2.0f, 4.0f);
+        gb.e.r(nVarC, 2.0f, 6.0f, 21.0f, 9.0f);
+        d.D(nVarC, -2.0f, 7.0f, 2.0f, 9.0f);
+        d.e(nVarC, 22.0f, 6.0f, -2.0f, 4.0f);
+        gb.e.r(nVarC, 2.0f, 6.0f, 14.62f, 14.38f);
+        nVarC.l(12.1f, 16.9f);
+        nVarC.i(-2.5f, -1.43f, -4.57f, -3.5f, -6.0f, -6.0f);
+        nVarC.m(2.52f, -2.52f);
+        nVarC.h(8.86f, 8.14f, 8.96f, 7.8f, 8.9f, 7.48f);
+        nVarC.l(8.16f, 3.8f);
+        nVarC.h(8.07f, 3.34f, 7.66f, 3.0f, 7.18f, 3.0f);
+        nVarC.j(3.03f);
+        nVarC.h(2.47f, 3.0f, 2.0f, 3.47f, 2.03f, 4.03f);
+        nVarC.h(2.2f, 6.92f, 3.05f, 9.63f, 4.43f, 12.0f);
+        nVarC.i(1.58f, 2.73f, 3.85f, 4.99f, 6.57f, 6.57f);
+        nVarC.i(2.37f, 1.37f, 5.08f, 2.23f, 7.97f, 2.4f);
+        nVarC.i(0.56f, 0.03f, 1.03f, -0.44f, 1.03f, -1.0f);
+        nVarC.t(-4.15f);
+        nVarC.i(0.0f, -0.48f, -0.34f, -0.89f, -0.8f, -0.98f);
+        nVarC.m(-3.67f, -0.73f);
+        nVarC.h(15.2f, 14.04f, 14.86f, 14.14f, 14.62f, 14.38f);
+        k0.a.u(nVarC, 14.0f, 10.0f, 2.0f, 2.0f);
+        gb.e.r(nVarC, -2.0f, 10.0f, 11.0f, 10.0f);
+        gb.e.v(nVarC, 2.0f, 2.0f, -2.0f, 10.0f);
+        k0.a.p(nVarC, 19.0f, 12.0f, -2.0f, -2.0f);
+        gb.e.r(nVarC, 2.0f, 12.0f, 22.0f, 12.0f);
+        gb.e.v(nVarC, -2.0f, -2.0f, 2.0f, 12.0f);
+        e.a(eVar, nVarC.f3166a, 0, m0Var);
+        f fVarB = eVar.b();
+        _tty = fVarB;
+        return fVarB;
+    }
+}
